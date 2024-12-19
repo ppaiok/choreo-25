@@ -21,8 +21,8 @@ jobs:
         run: |
             DATE=$(date "+%Y/%m/%d %H:%M:%S")
             echo "${DATE}" > README.md
-            git config --global user.email "替换你的用户名@users.noreply.github.com"
-            git config --global user.name "替换你的用户名"
+            git config --global user.email "ppaiok@users.noreply.github.com"
+            git config --global user.name "ppaiok"
             git add README.md
             git commit -m "Auto deploy by Github Actions, ${DATE}"
             git push --force
